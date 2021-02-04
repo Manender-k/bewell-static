@@ -1,0 +1,1194 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+  padding: .5rem 1rem;
+}
+
+.small-container {
+  max-width: 960px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
+}
+
+.xssmall-container {
+  max-width: 640px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
+}
+
+.small-container-info {
+  max-width: 1280px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
+}
+
+.pagename-content {
+  padding: 38px 0px 0px;
+}
+
+.page-title-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+#overlay {
+  position: fixed;
+  /* Sit on top of the page content */
+  display: none;
+  /* Hidden by default */
+  width: 100%;
+  /* Full width (cover the whole page) */
+  height: 100%;
+  /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:#283673;
+  /* Black background with opacity */
+  z-index: 2;
+  /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer;
+  /* Add a pointer on hover */
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 24px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  min-width: 159px;
+}
+
+.sidebar .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.333;
+  letter-spacing: 0.96px;
+  text-transform: uppercase;
+}
+
+ul.nav li {
+  position: relative;
+}
+
+span.submenu-arrow {
+  position: absolute;
+  cursor: pointer;
+  right: 2px;
+  /* background: #fff; */
+  padding: 5px 20px;
+  top: 0;
+  z-index: 9;
+}
+
+ul.dropdown-sub li a {
+  font-weight: 500;
+  color: #333;
+}
+
+.dropdown-sub {
+  display: none;
+}
+
+ul.dropdown-sub li {
+  cursor: pointer;
+}
+
+ul.dropdown-sub li a {
+  text-decoration: none;
+  padding: .2rem 2rem;
+  display: block;
+}
+
+ul.dropdown-sub li:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.px-md-4 {
+  padding-right: 1.5rem!important;
+  padding-left: 1.5rem!important;
+}
+
+.ms-sm-auto {
+  margin-left: auto!important;
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.side-menu {
+  padding: .5rem 1rem;
+  margin: 40px 0px 20px;
+  cursor: pointer;
+}
+
+.side-menu div {
+  width: 18px;
+  height: 2px;
+  background-color: black;
+  margin: 3px 0;
+}
+
+.banner-home {
+  min-height: 812px;
+  /* background: #479CC9;
+  background: -webkit-linear-gradient(right, #479CC9, #7147AB);
+  background: -moz-linear-gradient(right, #479CC9, #7147AB);
+  background: linear-gradient(to left, #479CC9, #7147AB); */
+
+  background: #1d1d1d;
+ 
+}
+
+
+.banner-content {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.banner-content h1 {
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  line-height: 1.333;
+  letter-spacing: 0; font-weight: 900;
+}
+
+.banner-content p {
+  color: #fff;
+  margin: 32px 0 40px;
+  line-height: 1.6;
+}
+
+.ce-mark {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ce-mark-logo {
+  margin-right: 46px;
+  width: 131px;
+  display: inline-block;
+}
+
+.ce-mark-text {
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  line-height: 1.333;
+}
+
+.learn-more {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: #16204c;
+  background-size: 300px;
+  background-image: url(images/virus.png);
+  background-repeat: no-repeat;
+  background-position: right -122px top -86px;
+}
+
+.learn-more-text {
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  line-height: 1.333;
+  color: #fff;
+}
+
+.lm-link {
+  border: 1px solid #fbc531;
+  margin-left: 30px;
+  color: #fbc531;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 3px 11px;
+  font-size: 12px;
+  vertical-align: bottom;
+  line-height: 17px;
+  display: inline-block;
+  letter-spacing: 0.36px;
+  position: relative;
+  top: -5px;
+}
+
+.lm-link a {
+  color: #fbc531;
+  text-decoration: none;
+}
+
+.new-era {
+  color: rgb(255, 255, 255);
+  background-color: #283673;
+}
+
+.newera-content {
+  padding-top: 176px;
+  padding-bottom: 176px;
+}
+
+.newera-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.333;
+  letter-spacing: 0;
+  margin: 0px 0px 100px;
+}
+
+.newera-content h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.newera-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.information {
+  background-color: #f1f1f1;
+  padding: 112px 0px;
+}
+
+.information-content {
+  background: #fff;
+  margin-top: 0px;
+  margin-bottom: 64px;
+}
+
+.information-content:last-child {
+  margin-bottom: 0px;
+}
+
+.information-content h4 {
+  font-size: 46px;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  line-height: 1.333;
+  letter-spacing: 0
+}
+
+.information-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+.information-content ul {
+  margin: 24px 0px;
+  padding: 0;
+  list-style: none;
+}
+
+.information-content ul li {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+.information-content ul li:before {
+  color: #283673;
+  display: inline;
+  content: "+ ";
+}
+
+.info-image {
+  position: relative;
+  height: 529px;
+  width: 513px;
+}
+
+.info-image img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info-detail {
+  padding: 80px 80px 80px 0px;
+}
+
+.latest-news {
+  background-color: #fafafa;
+}
+
+.ln-content {
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+
+.ln-content .card {}
+
+.ln-content h5 {
+  font-size: 46px;
+  color: #333;
+  margin-bottom: 70px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.ln-img-block {
+  min-height: 140px;
+  height: 140px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ln-img-block img {
+  max-width: 100%;
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.ln-content .col {
+  margin-bottom: 30px;
+}
+
+.ft-block {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  clear: both;
+  background-color: #181818;
+}
+
+.ft-content {
+  padding: 80px 0px;
+}
+
+.company-info {}
+
+.company-info p.title {
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+
+.company-info p.title a {
+  color: #fff;
+}
+
+ul.ft-link li {
+  padding-bottom: 8px;
+  font-size: 14px
+}
+
+ul.ft-link li a {
+  color: #fff;
+}
+
+ul.ft-link li a:hover {
+  color: #c6c6c6;
+}
+
+.hemburgermenu-block {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  clear: both;
+  background-color: rgb(36, 46, 62);
+}
+
+.hemburgermenu-content {
+  padding: 140px 0px 0;
+}
+
+.hemburgermenu-info p.title {
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  color: #fff;
+}
+
+.hemburgermenu-info p.title a {
+  color: #fff;
+}
+
+ul.hemburgermenu-link li {
+  padding-bottom: 8px;
+  font-size: 14px;
+  color: #fff;
+}
+
+ul.hemburgermenu-link li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.hemburgermenu-link li a:hover {
+  color: #fbde37;
+}
+
+
+/* product start here */
+
+.banner-product {
+  min-height: 600px;
+  background: #1d1d1d;
+}
+
+.bannerproduct-content {
+  padding: 200px 0px;
+}
+
+.bannerproduct-content h1 {
+  color: #EA2027;
+  font-size: 72px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.bannerproduct-content p {
+  color: #fff;
+  margin: 32px 0 40px;
+  line-height: 1.6;
+}
+
+.bannerproduct-content h1 {
+  margin-bottom: 30px;
+}
+
+span.product-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 36px;
+  display: block;
+}
+
+span.product-icon img {
+  height: 60px;
+}
+
+.bannerproduct-content p {
+  padding: 0;
+  margin: 0;
+}
+
+p.product-icon-title {
+  font-size: 24px;
+  color: #fff;font-family: 'Poppins', sans-serif; font-weight: 800;
+
+}
+
+span.colorturquoise {
+  color: #1ac9e8;
+}
+
+span.colorpink {
+  color: #fe50a0;
+}
+
+span.colorviolet {
+  color: #7493fa;
+}
+
+span.coloryellow {color: #EA2027;}
+span.colorblue {color: #5667af;}
+span.colorgrey {color: #a1a1a1;}
+
+.product-content {
+  padding: 38px 0px 10px;
+}
+
+.pd-row {
+  padding: 100px 0px 100px;
+}
+
+p.tab-title-main {
+  font-size: 30px;
+  /* margin-top: 50px; */
+  margin-bottom:10px;font-family: 'Poppins', sans-serif;
+font-weight: 800;
+}
+
+p.tab-subtitle-main {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.product-img {
+  background: #eee;
+}
+
+.pd-info-row {
+  padding: 20px 0px;
+  border-top: 1px solid rgb(198, 218, 255);
+}
+
+ul.pd-listitem li {
+  list-style-type: disc;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
+p.tab-title-main-info {
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 21px;
+  font-weight: 800;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.product-content .nav-tabs .nav-item {
+  margin-bottom: -1px;
+  font-weight: bold;
+  padding: 0px 20px;
+  font-size: 18px;
+}
+.nav-tabs .nav-link {font-family: 'Poppins', sans-serif;
+}
+.nav-tabs .nav-link { color: #7784bd;} 
+/* product end here */
+
+
+/* sales-block css start here */
+
+.sales-content {
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 3px 6px rgba(3, 0, 71, .1)!important;
+}
+
+.sales-block {
+  padding: 70px 0px;
+  min-height: 768px;
+  background-color: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.sales-block .form-control {
+  font-size: 15px;
+  background: #fcfcfc;
+}
+
+.sales-content h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.333;
+  letter-spacing: 0;font-family: 'Poppins', sans-serif;
+
+}
+
+
+/* sales-block css end here */
+
+
+/* contact css end here */
+
+.contact-block {
+  padding: 70px 0px;
+  min-height: 768px;
+  background-color: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+.contact-content {
+  box-shadow: 0 3px 6px rgba(3, 0, 71, .1)!important;
+  background: #fff;
+  padding: 30px;
+  padding: 30px;
+}
+
+.contact-content h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+
+  font-weight:800;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+
+/* contact css end here */
+
+
+/* company css start here */
+
+.banner-company {
+  min-height: 600px;
+  /* background: #479CC9;
+  background: -webkit-linear-gradient(right, #479CC9, #7147AB);
+  background: -moz-linear-gradient(right, #479CC9, #7147AB);
+  background: linear-gradient(to left, #479CC9, #7147AB); */
+  
+  
+  background: #1d1d1d;
+  
+}
+
+.bannercompany-content {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.bannercompany-content h1 {
+  color: #EA2027;
+  font-size: 72px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.bannercompany-content p {
+  color: #fff;
+  margin: 32px 0 40px;
+  line-height: 1.6;
+}
+
+.company-teamcontent {
+  padding: 140px 0px;
+}
+
+.team-info-row {}
+
+p.team-title-main {
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.team-main-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 5px;
+  font-weight: 800;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.investor {
+  color: rgb(255, 255, 255);
+  background-color: #283673;
+}
+
+.investor-content {
+  padding: 160px 0px;
+}
+
+p.investor-title-main {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.investor-logo {
+  width: 190px;
+}
+
+
+/* company css end here */
+
+.close-arrow {
+  position: absolute;
+  right: 10px;
+  padding: 20px;
+}
+
+.close-arrow i {
+  color: #fff;
+  font-size: 32px;
+}
+
+.nav-tabs .nav-link:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+  outline: auto 0px Highlight;
+  outline: auto 0px -webkit-focus-ring-color;
+}
+
+.disclaimer {
+  padding: 50px 0px;
+}
+
+p.small-text-info {
+  color: #d63031;
+  font-size: 12px;
+  font-style: italic;
+  padding: 10px 0px;
+}
+
+ul.feature-item li {
+  display: inline-block;
+  padding: 0px 36px;
+  max-width: 152px;
+  height: 58px;
+  text-align: center;
+  width: 100%;
+}
+
+ul.feature-item li:nth-child(1) {
+  padding-left: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: left;
+}
+
+ul.publication-item li {
+  display: inline-block;
+  padding: 0px 36px;
+  max-width: 152px;
+  text-align: center;
+  width: 100%;
+}
+
+ul.publication-item li:nth-child(1) {
+  padding-left: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: left;
+}
+
+.form-check-label {
+  cursor: pointer;
+}
+
+.slide-in-bck-center {
+  -webkit-animation: slide-in-bck-center 0.3s ease-out both;
+  animation: slide-in-bck-center 0.3s ease-out both;
+}
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2021-1-22 11:27:52
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+
+/**
+ * ----------------------------------------
+ * animation slide-in-bck-center
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+    transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-bck-center {
+  0% {
+    -webkit-transform: translateZ(600px);
+    transform: translateZ(600px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.product-small-info {    max-width: 260px;}
+.mobile-menu {position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0px;
+ }
+span.ham-menu {
+  position: absolute;
+  right: 1rem;
+  top: 20px; display: none;
+}
+span.ham-menu div {
+  width: 18px;
+  height: 2px;
+  background-color: black;
+  margin: 3px 0;
+}
+
+#ham-menu {display: none;} 
+#ham-menu li a {color:#fff;}
+
+
+#ham-menu li span.submenu-arrow {
+    color: #fff;
+}
+
+.sales-block .btn-primary {
+  color: #fff;
+  background-color: #283673;
+  border-color: #283673;
+}
+
+span.custom-text {color: #EA2027;font-size: 133px;line-height: 105px;}
+.team-pic {
+  display: none;
+}
+@media only screen and (min-width: 320px) and (max-width: 1600px) {
+
+  #overlay {
+    width: 92%;
+    margin-left: 8%;
+  }
+ 
+}
+@media only screen and (min-width: 768px) and (max-width: 1600px) {
+  .ft-content .col:nth-child(1) {
+    text-align: right;
+  }
+  
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1500px) {
+  /* .small-container-info {
+    max-width: 960px;} */
+    .investor-content, .company-teamcontent {
+      padding-left: 35px;padding-right: 35px;
+  }
+  .small-container-info {
+    max-width: 1052px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1450px) {
+  #overlay {
+    padding: 0px 90px;
+}
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1400px) {
+  .information-content h4 {
+    font-size: 40px;
+  }
+  .information-content ul li {
+    font-size: 14px;
+  }
+  .ln-img-block img {
+    object-fit: inherit;
+  }
+  .sidebar .nav-link {
+    font-size: 12px;
+  }
+  ul.dropdown-sub li {
+    font-size: 12px;
+  }
+  .logo {
+    width: 106px;
+    display: block;
+  }
+  span.submenu-arrow {
+    right: 2px;
+    padding: 2px 5px;
+  }
+  ul.dropdown-sub li a {
+    padding: .2rem 1rem;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1300px) {
+
+}
+@media only screen and (min-width: 1120px) and (max-width: 1279px) {
+  main.col-lg-11 {
+    -ms-flex: 0 0 87.666667%;
+    flex: 0 0 87.666667%;
+    max-width: 87.666667%;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1119px) {
+  main.col-lg-11 {
+    -ms-flex: 0 0 85.666667%;
+    flex: 0 0 85.666667%;
+    max-width: 85.666667%;
+}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1119px) {
+.team-info-row .col-md-3 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+}
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+  main.col-lg-11 {
+    -ms-flex: 0 0 84.666667%;
+    flex: 0 0 84.666667%;
+    max-width: 84.666667%;
+}
+
+}
+@media only screen and (min-width: 320px) and (max-width: 1000px) {
+.banner-content h1 {
+  text-align: center;
+}
+
+.bannercompany-content h1 {
+  text-align: center;
+}
+.bannerproduct-content h1{
+  text-align: center;
+}
+
+.banner-content p {
+text-align: center;
+}
+.bannercompany-content p{
+  text-align: center;
+  }
+  .product-info{
+    text-align: center;
+    }
+    span.custom-text{    font-size: inherit; line-height: normal;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+.bannerproduct-content .col-md-4 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+}
+@media only screen and (min-width: 320px) and (max-width: 900px)  {
+
+  .product-small-info {
+    max-width: initial;   
+  }
+  .bannerproduct-content .col-md-4 {
+  margin-bottom: 30px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+  main.col-lg-11 {
+    -ms-flex: 0 0 82.666667%;
+    flex: 0 0 82.666667%;
+    max-width: 82.666667%;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  main.col-lg-11 {
+    -ms-flex: 0 0 80.666667%;
+    flex: 0 0 80.666667%;
+    max-width: 80.666667%;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+  .ft-content .col:nth-child(1) {
+    text-align: right;
+  }
+  .ft-content .col img {
+    position: relative;
+    left: 15px;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.banner-home {
+  min-height: inherit;
+}
+.contact-block {
+  min-height: inherit;
+}
+
+.banner-company{
+  min-height: inherit;
+}
+.banner-product {
+  min-height: inherit;
+}
+.banner-content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.bannercompany-content{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.bannerproduct-content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.company-teamcontent {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.investor-content{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.mv-none {display: none;}
+
+.pd-row {
+  padding: 20px 0px 20px;
+}
+p.tab-title-main {
+  margin-bottom: 2px;}
+  p.tab-subtitle-main {
+    padding-bottom: 30px;
+}
+p.tab-title-main-info {
+  padding-bottom: 20px;
+}
+ul.pd-listitem li {
+  list-style-position: inside;
+}
+span.ham-menu  {    display: block;}
+.mobile-menu {    display: block; z-index: 9;
+
+  background: #fff;}
+
+  #ham-menu {   background: #283673;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 53px;
+    height: 100%;padding-top: 20px;
+}
+main.col-lg-11 {
+  margin-top: 53px;
+}
+#overlay {display: none !important;}
+#ham-menu li {}
+.banner-content p {margin-bottom: 0;}
+.team-info-row .mb-4 {
+  margin-bottom: 0rem!important;
+}
+
+.team-info-row  .card-body {
+  padding-top: 0.5rem;
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  .banner-content h1 {font-size: 46px;}
+  .bannercompany-content h1 {font-size: 46px;}
+  .bannerproduct-content h1 {font-size: 46px;}
+
+
+  
+    .ft-content .col {
+      -ms-flex-preferred-size: inherit;
+      flex-basis: inherit;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      max-width: 100%;margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 471px) {
+  .product-content .nav-tabs .nav-item {
+    padding: 0px 2px;
+}
+.product-content .nav-tabs .nav-item a.nav-link {    padding: .5rem .5rem !important;}
+}
