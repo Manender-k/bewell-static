@@ -168,62 +168,62 @@
                      <div class="sales-content">
                         <h1 style="padding-bottom:0px; margin-bottom:0px;">Sales</h1>
                         <p style="padding-bottom:20px;">Get in touch with us!</p>
-                        <form>
+                        <form target="_blank" action="https://formsubmit.co/b3e65e3ce330110acc5bc4a157ba44fa" method="POST">
                            <div class="form-group row">
                               <div class="col">
-                                 <input type="text" class="form-control" placeholder="Last name *">
+                                 <input type="text" name="Last-Name" class="form-control" placeholder="Last name *" required>
                               </div>
                               <div class="col">
-                                 <input type="text" class="form-control" placeholder="First name *">
-                              </div>
-                           </div>
-                           <!-- row -->
-                           <div class="form-group row">
-                              <div class="col">
-                                 <input type="text" class="form-control" placeholder="Email *">
+                                 <input type="text" name="First-Name" class="form-control" placeholder="First name *" required>
                               </div>
                            </div>
                            <!-- row -->
                            <div class="form-group row">
                               <div class="col">
-                                 <input type="text" class="form-control" placeholder="Country">
+                                 <input type="email" name="Email" class="form-control" placeholder="Email *" required>
                               </div>
                            </div>
                            <!-- row -->
                            <div class="form-group row">
                               <div class="col">
-                                 <input type="text" class="form-control" placeholder="Phone Number *">
+                                 <input type="text" name="Country" class="form-control" placeholder="Country">
                               </div>
                            </div>
                            <!-- row -->
                            <div class="form-group row">
                               <div class="col">
-                                 <input type="text" class="form-control" placeholder="Official title *">
+                                 <input type="text" name="Phone" class="form-control" placeholder="Phone Number *" required>
                               </div>
                            </div>
                            <!-- row -->
                            <div class="form-group row">
                               <div class="col">
-                                 <input type="text" class="form-control" placeholder="Organization *">
+                                 <input type="text" name="Title" class="form-control" placeholder="Official title *" required>
+                              </div>
+                           </div>
+                           <!-- row -->
+                           <div class="form-group row">
+                              <div class="col">
+                                 <input type="text" name="Organization" class="form-control" placeholder="Organization *" required>
                               </div>
                            </div>
                            <!-- row -->
                            <div class="form-group">
-                              <label for="validationTextarea">Product Interest *</label>
+                              <label for="validationTextarea">Product Interest</label>
                               <div class="form-check">
-                                 <input class="form-check-input" type="checkbox" id="1">
+                                 <input name="BeWell-CXR-TB" class="form-check-input" type="checkbox" id="1">
                                  <label class="form-check-label" for="1">
                                  BeWell CXR-TB 
                                  </label>
                               </div>
                               <div class="form-check">
-                                 <input class="form-check-input" type="checkbox" id="2">
+                                 <input name="BeWell-MGram" class="form-check-input" type="checkbox" id="2">
                                  <label class="form-check-label" for="2">
                                  BeWell MGram
                                  </label>
                               </div>
                               <div class="form-check">
-                                 <input class="form-check-input" type="checkbox" id="3">
+                                 <input name="BeWell-DiaRet" class="form-check-input" type="checkbox" id="3">
                                  <label class="form-check-label" for="3">
                                  BeWell DiaRet
                                  </label>
@@ -231,7 +231,7 @@
                            </div>
                            <div class="form-group row">
                               <div class="col">
-                                 <textarea class="form-control" id="" rows="3" placeholder="Message *"></textarea>
+                                 <textarea name="Message" class="form-control" id="" rows="3" placeholder="Message *" required></textarea>
                               </div>
                            </div>
                            <!-- form-group -->
@@ -250,7 +250,7 @@
                               </div>
                            </div> -->
                            <!-- form-group -->
-                           <button class="w-100 btn btn-lg btn-primary">SUBMIT</button>
+                           <button type="submit" class="w-100 btn btn-lg btn-primary">SUBMIT</button>
                         </form>
                      </div>
                      <!-- sales-content -->
